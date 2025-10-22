@@ -89,14 +89,14 @@ Residual diagnostic checks confirm:
 ### 7. Forecasting Results
 Using the **ARIMA(3,1,0)** model, forecasts for Jan–Jun 2025 were generated to test the accuracy of the model against actual data.
 
-| Month | Forecasted Cases | 95% CI (Lower–Upper) |
-|:------|:----------------:|:--------------------:|
-| Jan 2025 | 198 | 155–242 |
-| Feb 2025 | 202 | 161–246 |
-| Mar 2025 | 209 | 168–252 |
-| Apr 2025 | 210 | 169–254 |
-| May 2025 | 203 | 162–247 |
-| Jun 2025 | 214 | 172–259 |
+Forecast vs Test Data (Jan–Jun 2025)
+Month	Forecasted Cases	Test Data	95% CI (Lower–Upper)
+Jan 2025	232	229	146–319
+Feb 2025	206	198	106–306
+Mar 2025	210	201	105–314
+Apr 2025	226	209	121–332
+May 2025	229	210	114–344
+Jun 2025	219	203	94–344
 
 📈 **Insight:** The trend indicates a gradual increase in URTI cases in 2025.
 
