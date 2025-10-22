@@ -43,6 +43,21 @@ The exploratory analysis provided insight into:
 - Decrease during **wet season (Apr–Aug)** due to higher humidity and cleaner air.
 - Gradual increase again from **September to December**.
 
+Statistic            | Value       |
+|:-------------------|:-----------:|
+| Mean                | 88.48      |
+| Standard Error      | 4.39       |
+| Median              | 69         |
+| Mode                | 39         |
+| Standard Deviation  | 58.83      |
+| Sample Variance     | 3461.42    |
+| Kurtosis            | 0.53       |
+| Skewness            | 1.12       |
+| Range               | 242        |
+| Minimum             | 8          |
+| Maximum             | 250        |
+| Sum                 | 15926      |
+
 ---
 
 ### 3. Stationarity Testing
