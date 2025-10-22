@@ -86,17 +86,38 @@ Residual diagnostic checks confirm:
 
 ---
 
-### 7. Forecasting Results
+### 7. Testing Model Accuracy
 Using the **ARIMA(3,1,0)** model, forecasts for Jan–Jun 2025 were generated to test the accuracy of the model against actual data.
 
-Forecast vs Test Data (Jan–Jun 2025)
-Month	Forecasted Cases	Test Data	95% CI (Lower–Upper)
-Jan 2025	232	229	146–319
-Feb 2025	206	198	106–306
-Mar 2025	210	201	105–314
-Apr 2025	226	209	121–332
-May 2025	229	210	114–344
-Jun 2025	219	203	94–344
+| Month     | Forecasted Cases | Test Data | 95% CI (Lower–Upper) |
+|:---------|:----------------:|:---------:|:-------------------:|
+| Jan 2025 | 232             | 229       | 146–319             |
+| Feb 2025 | 206             | 198       | 106–306             |
+| Mar 2025 | 210             | 201       | 105–314             |
+| Apr 2025 | 226             | 209       | 121–332             |
+| May 2025 | 229             | 210       | 114–344             |
+| Jun 2025 | 219             | 203       | 94–344              |
+
+---
+
+### 6. Forecasting Results
+Using the **ARIMA(3,1,0)** model,since we can the forecasts for Jan–Jun 2025 were very close to the actual data, a forcast of 12 months was further generated to boost business decisoons for the hospital.
+
+| Month       | Forecasted Cases | 95% CI (Lower–Upper) |
+|:-----------|:----------------:|:-------------------:|
+| Jan 2025   | 232             | 146–319             |
+| Feb 2025   | 206             | 106–306             |
+| Mar 2025   | 210             | 105–314             |
+| Apr 2025   | 226             | 121–332             |
+| May 2025   | 229             | 114–344             |
+| Jun 2025   | 219             | 94–344              |
+| Jul 2025   | 215             | 84–346              |
+| Aug 2025   | 220             | 85–354              |
+| Sep 2025   | 224             | 85–363              |
+| Oct 2025   | 222             | 76–367              |
+| Nov 2025   | 219             | 68–370              |
+| Dec 2025   | 219             | 64–374              |
+
 
 📈 **Insight:** The trend indicates a gradual increase in URTI cases in 2025.
 
