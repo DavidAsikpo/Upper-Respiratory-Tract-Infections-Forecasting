@@ -150,5 +150,3 @@ Using the **ARIMA(3,1,0)** model,since we can the forecasts for Jan–Jun 2025 w
 
 ---
 
-## 🧩 Folder Structure
-
